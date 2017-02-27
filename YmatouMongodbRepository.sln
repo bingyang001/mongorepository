@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4858BEE7-DCCB-4311-AEF0-C58B7861335A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{90E0E6FC-14FA-43CE-A5E2-67D55622B293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YmtSystem.Domain.IMongodbRepository", "src\YmtSystem.Repository.IMongodb\YmtSystem.Domain.IMongodbRepository.csproj", "{46A478DE-F2CE-4295-871E-89B79F92E6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YmtSystem.Repository.Mongodb", "src\YmtSystem.Repository.Mongodb\YmtSystem.Repository.Mongodb.csproj", "{841CCBBB-443A-4F84-93F0-68364C545418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongodbTest", "test\MongodbTest\MongodbTest.csproj", "{40600E2F-CAC1-46A0-A778-7717E24A03F8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://win2012-tfs01:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\YmtSystem.Repository.IMongodb\\YmtSystem.Domain.IMongodbRepository.csproj
+		SccProjectTopLevelParentUniqueName1 = YmatouMongodbRepository.sln
+		SccProjectName1 = src/YmtSystem.Repository.IMongodb
+		SccLocalPath1 = src\\YmtSystem.Repository.IMongodb
+		SccProjectUniqueName2 = src\\YmtSystem.Repository.Mongodb\\YmtSystem.Repository.Mongodb.csproj
+		SccProjectTopLevelParentUniqueName2 = YmatouMongodbRepository.sln
+		SccProjectName2 = src/YmtSystem.Repository.Mongodb
+		SccLocalPath2 = src\\YmtSystem.Repository.Mongodb
+		SccProjectUniqueName3 = test\\MongodbTest\\MongodbTest.csproj
+		SccProjectTopLevelParentUniqueName3 = YmatouMongodbRepository.sln
+		SccProjectName3 = test/MongodbTest
+		SccLocalPath3 = test\\MongodbTest
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46A478DE-F2CE-4295-871E-89B79F92E6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A478DE-F2CE-4295-871E-89B79F92E6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A478DE-F2CE-4295-871E-89B79F92E6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A478DE-F2CE-4295-871E-89B79F92E6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841CCBBB-443A-4F84-93F0-68364C545418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841CCBBB-443A-4F84-93F0-68364C545418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841CCBBB-443A-4F84-93F0-68364C545418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841CCBBB-443A-4F84-93F0-68364C545418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40600E2F-CAC1-46A0-A778-7717E24A03F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40600E2F-CAC1-46A0-A778-7717E24A03F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40600E2F-CAC1-46A0-A778-7717E24A03F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40600E2F-CAC1-46A0-A778-7717E24A03F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46A478DE-F2CE-4295-871E-89B79F92E6EB} = {4858BEE7-DCCB-4311-AEF0-C58B7861335A}
+		{841CCBBB-443A-4F84-93F0-68364C545418} = {4858BEE7-DCCB-4311-AEF0-C58B7861335A}
+		{40600E2F-CAC1-46A0-A778-7717E24A03F8} = {90E0E6FC-14FA-43CE-A5E2-67D55622B293}
+	EndGlobalSection
+EndGlobal
